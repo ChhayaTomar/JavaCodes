@@ -36,5 +36,33 @@ public class QueueUsingArrayList {
     //size
     public int size() {
         return this.size;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
