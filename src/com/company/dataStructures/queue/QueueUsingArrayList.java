@@ -13,28 +13,28 @@ public class QueueUsingArrayList {
     }
 
     //Add Method -add element at front of queue
-    public void enqueue(int val){
+    public void enqueue(int val) {
         data.add(val);
         this.size++;
     }
 
     //Remove Method - remove element from front of queue
-    public int remove(){
-        if(this.size==0) return -1;
-        int ans=data.remove(0);
+    public int remove() {
+        if (this.size == 0) return -1;
+        int ans = data.remove(0);
         this.size--;
         return ans;
     }
 
     //Peek Method - return the element at the front but doesn't remove the element
-    public int peek(){
-        if(this.size==0) return -1;
-        int ans=data.get(0);
+    public int peek() {
+        if (this.size == 0) return -1;
+        int ans = data.get(0);
         return ans;
     }
 
     //size
-    public int size(){
+    public int size() {
         return this.size;
     }
 }
