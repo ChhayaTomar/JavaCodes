@@ -88,8 +88,7 @@ public class LLimplementation {
         else if(x==0) {
             head=head.next;
             size--;
-        }
-        else{
+        }else{
             /*
               if (head == null) return;
         int i = 0;
