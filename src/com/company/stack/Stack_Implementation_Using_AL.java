@@ -1,4 +1,4 @@
-package com.company.dataStructures.stack;
+package com.company.stack;
 
 public class Stack_Implementation_Using_AL {
 

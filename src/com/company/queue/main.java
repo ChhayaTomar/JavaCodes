@@ -1,4 +1,4 @@
-package com.company.dataStructures.queue;
+package com.company.queue;
 
 public class main {
     public static void main(String[] args) {

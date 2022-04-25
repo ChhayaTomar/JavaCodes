@@ -1,4 +1,4 @@
-package com.company.dataStructures.linkedList;
+package com.company.linkedList;
 
 public class LLimplementation {
     public class Node{

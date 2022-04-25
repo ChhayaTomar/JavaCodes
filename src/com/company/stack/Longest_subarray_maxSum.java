@@ -1,4 +1,4 @@
-package com.company;
+package com.company.stack;
 
 public class Longest_subarray_maxSum {
     public static void main(String[] args) {

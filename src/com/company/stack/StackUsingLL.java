@@ -1,4 +1,4 @@
-package com.company.dataStructures.stack;
+package com.company.stack;
 
 public class StackUsingLL {
     public static class Node {

@@ -1,6 +1,6 @@
-package com.company.dataStructures.stack;
+package com.company.stack;
 
-import com.company.dataStructures.queue.QueueImplementationUsingStack;
+//import com.company.queue.QueueImplementationUsingStack;
 
 import java.util.LinkedList;
 import java.util.Queue;
