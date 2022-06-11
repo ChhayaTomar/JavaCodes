@@ -1,20 +1,22 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PP {
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5};
-        int[] freq={1,2,2,2,2};
-        String str="";
-        for (int i = 0; i <freq.length ; i++) {
-            int m=freq[i];
-            for(int j=0;j<m;j++){
-                str+=arr[i];
-            }
-        }
-        System.out.println(str);
-        long res=(Long.parseLong(str))%11;
-        System.out.println(res);
-        int res2=(int)res;
-        System.out.println(res2);
+        List<Integer> list1=new ArrayList<>();
+        List<List<Integer>> list=new ArrayList<>();
+        List<List<Integer>> list2=new ArrayList<>();
+        list1.add(1);
+        list1.add(2);
+
+        int sum=11;
+        int x=2;
+        double avg=(sum/(double)x);
+        System.out.println(avg);
+        int i=1;
+
+
     }
 }
